@@ -16,8 +16,8 @@ $(function() {
           ". "+burgers[i].name +
           "<button class='change-eat' data-id='" +
           burgers[i].id +
-          "' data-newEat='" +
-          !burgers[i].eaten +
+          "' data-neweat='" +
+          !burgers[i].devoured +
           "'>";
   
         if (burgers[i].devoured) {
@@ -31,7 +31,7 @@ $(function() {
         new_elem +=
           "<button class='delete-burger' data-id='" +
           burgers[i].id +
-          "'>DELETE!</button></li>";
+          "'>Delete!!</button></li>";
   
         if (burgers[i].devoured) {
           devouredElem.append(new_elem);
@@ -43,7 +43,7 @@ $(function() {
   
     $(document).on("click", ".change-eat", function(event) {
       var id = $(this).data("id");
-      var newEat = $(this).data("newEat")===true;
+      var newEat = $(this).data("neweat")===true;
   
       var newEatState = {
         devoured: newEat
