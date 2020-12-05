@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
+    <title>EAT-DA-BURGER!</title>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="./assets/js/burgerJS.js"></script>
+  </head>
+  <body>
+    <h1>BURGERS</h1>
+
+    <h2>Ready to EAT BURGERS</h2>
+
+    <ul id="notEatenBurger"></ul>
+
+    <h2>DEVOURED BURGERS</h2>
+
+    <ul id="devoured"></ul>
+
+    <h2>ADD A BURGER</h2>
+    <form class="create-form">
+      <div class="form-group">
+        <label for="ca">Burger Name:</label>
+        <input type="text" id="ca" name="name" />
+      </div>
+
+      <div class="form-group">
+        <label for="eaten">Did You Eat it Already?</label><br />
+        <input type="radio" name="eaten" value="1" checked /> Not Eaten!<br />
+        <input type="radio" name="eaten" value="0" /> Devoured!
+      </div>
+
+      <button type="submit">ADD BURGER</button>
+    </form>
+  </body>
+</html>
