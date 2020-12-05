@@ -13,7 +13,7 @@ $(function() {
         var new_elem =
           "<li>" +
           burgers[i].id + 
-          ". "+burgers[i].name +
+          ". "+burgers[i].burger_name +
           "<button class='change-eat' data-id='" +
           burgers[i].id +
           "' data-neweat='" +
@@ -68,7 +68,7 @@ $(function() {
   
       var newBurger = {
         burger_name: $("#ca").val().trim(),
-        devoured: $("[name=eaten]:checked").val().trim()
+        // devoured: $("[name=eaten]:checked").val().trim()
       };
   
       // Send the POST request.
