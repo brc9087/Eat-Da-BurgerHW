@@ -10,7 +10,7 @@ Each burger on the will have a Delete Button. When the user clicks delete, it wi
 1. Click the link to fire up app ==> https://immense-waters-93242.herokuapp.com/
 2. Enjoy! 
 
-    ![](./images/AppStartup.JPG)
+    ![](./assets/AddBurger.JPG)
 
 3. Add employees/ departments, then follow prompts
 
