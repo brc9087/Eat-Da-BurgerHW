@@ -8,17 +8,18 @@ Each burger on the will have a Delete Button. When the user clicks delete, it wi
 ## Usage / Directions
 ---
 1. Click the link to fire up app ==> https://immense-waters-93242.herokuapp.com/
-2. Enjoy! 
+2. Enjoy! Yummy!
 
+* Add Burger
     ![](./assets/AddBurger.JPG)
 
-3. Add employees/ departments, then follow prompts
 
-    ![](./images/AddEmployee.JPG)
+* Devour Burger
+    ![](./assets/Devoured.JPG)
     
-4. Update Employee roles as desired 
-
-    ![](./images/UpdateEmployee.JPG)
+    
+* Ready to Eat 
+    ![](./assets/ReadyToEat.JPG)
 
 
 ## Tools Used / Dependancies
